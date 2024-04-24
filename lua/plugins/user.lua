@@ -92,4 +92,20 @@ return {
       }
     end,
   },
+
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "User AstroFile",
+    opts = {
+      suggestion = {
+        auto_trigger = true,
+        keymap = {
+          accept = "<C-y>",
+          next = "<C-]>",
+          prev = "<C-[>",
+        },
+      },
+    },
+  },
 }
