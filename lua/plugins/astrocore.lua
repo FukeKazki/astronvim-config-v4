@@ -65,6 +65,12 @@ return {
         -- setting a mapping to false will disable it
         -- ["<esc>"] = false,
       },
+      i = {
+        ["jj"] = {
+          "<Esc>:<C-u>w<CR>", -- save on `jj`,
+          desc = "Save on jj",
+        },
+      },
     },
   },
 }
